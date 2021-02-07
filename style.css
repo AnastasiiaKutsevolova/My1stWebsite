@@ -10,6 +10,12 @@ header {
     padding: 25px 60px;
 }
 
+body {
+    background-image: url('./olivier-miche-OZACaaUskhg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 ul {
     display: flex;
     list-style-type:none;
@@ -17,6 +23,8 @@ ul {
 
 li {
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 main {
@@ -27,6 +35,77 @@ h1{
     margin-bottom: 20px;
 }
 
-.learn-more {
+.signup {
+    transition-duration: 0.2s;
+    background-color: #2a2a72;
+    border-radius: 70px;
+    font-size: 15px;
+    color:white;
+    width: 100px;
+    border:none;
+    padding: 3px 7px;
+    outline: none;
+}
+
+.signup:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+.signin {
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+}
+
+.signin:hover {
+    color: white;
+}
+
+.learnmore {
     margin-top: 20px;
+    transition-duration: 0.2s;
+    background-color: lightskyblue;
+    border-radius: 70px;
+    font-size: 15px;
+    width: 100px;
+    color:white;
+    border: none;
+    padding: 3px 7px;
+    outline: none;
+}
+
+.learnmore:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+.drop {
+    width: 25px;
+    height: 25px;
+    color: #2a2a72;
+    margin-left: 10px;
+}
+
+.logo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-variant:initial;
+}
+
+.logo:hover {
+    transform: rotateY(360deg);
+    transition: linear 2s all;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #2a2a72;
 }
