@@ -19,20 +19,22 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     padding: 35px 60px;
 }
 
 body {
-    height: 100%;
-    background-image: url('./olivier-miche-OZACaaUskhg-unsplash.jpg');
+    height: 100vh;
+    background-image: url('./photo-1605790923776-2f3649ed871a.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 ul {
     display: flex;
-    list-style-type:none;
+    width: 50%;
+    float: center;
+    list-style-type: none;
 }
 
 li {
@@ -45,6 +47,8 @@ li {
 h1 {
     margin: 80px 80px 10px 80px;
     text-transform: uppercase;
+    color: white;
+    font-stretch: wider;
 }
 
 span {
@@ -52,26 +56,30 @@ span {
 }
 
 p {
-    margin: 20px 900px 10px 80px;
+    width: 500px;
+    margin-left: 30px;
     line-height: 1.6;
-    width: 75vmin;
+    color:black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .signup {
     transition-duration: 0.2s;
-    background-color:none;
+    background-color: #2a2a72;
     border-radius: 70px;
     font-size: 15px;
-    color:white;
+    color: white;
     width: 100px;
-    border:none;
+    border: none;
     padding: 3px 7px;
     outline: none;
 }
 
 .signup:hover {
-    background: #2a2a72;
-    color: white;
+    background-color: whitesmoke;
+    color: darkcyan;
 }
 
 .signin {
@@ -91,11 +99,11 @@ p {
     transition-duration: 0.2s;
     background-color: lightskyblue;
     border-radius: 70px;
-    font-size: 15px;
+    font-size: 12px;
     width: 100px;
-    color:white;
+    color: white;
     border: none;
-    padding: 5px;
+    padding: 10px;
     outline: none;
     border-radius: 88px 0px 88px 80px;
 }
@@ -115,7 +123,7 @@ p {
 .logo {
     font-family: "Times New Roman", Times, serif;
     font-size: 25px;
-    font-variant:initial;
+    font-variant: initial;
     margin-left: 25px;
 }
 
